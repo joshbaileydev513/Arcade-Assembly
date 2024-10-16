@@ -28,7 +28,7 @@ Coming Soon
 ## Usage
 In order to use this app you will first need to navigate to the **`root`** folder and open up a terminal. When the terminal is open, run the command **`npm run install`** to install your dependencies in both the client and server folder. Next you will type **`npm run build`** into our terminal which will cd to the client folder and run the build command. Once that is finished, you will type **`npm run develop`** which will concurrently cd to the server and run watch while also doing the same to client with start. Once that is completed both your front and back end are up & running, so you are good to go!
 
-Deployed Site: https://arcade-assembly-c977bb949035.herokuapp.com/
+<!-- Deployed Site: https://arcade-assembly-c977bb949035.herokuapp.com/ -->
 
 ![Homepage Picture](client/src/assets/homepage-pic.png)
 
