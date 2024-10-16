@@ -1,0 +1,134 @@
+/* * {
+    border: 1px solid whitesmoke;
+} */
+
+.avatar {
+    max-height: 300px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(60, 60, 60);
+    box-shadow: 0 10px 8px -7px black;
+}
+
+.friendAvatar {
+    height: 125px;
+}
+
+.profileHeader,
+.friendCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(60, 60, 60);
+    margin: 25px 0;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(black, rgb(54, 54, 54));
+    padding: 10px;
+    box-shadow: 0 10px 8px -7px black;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.friendCard {
+    position: relative;
+    margin: 15px auto;
+    width: 75%;
+}
+
+.buttonWrapper {
+    text-align: center;
+    height: 75px;
+}
+
+.listButton {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.listContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.outsideWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.profileAction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addFriendButton {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.4s ease-in-out;
+}
+
+.addFriendButton {
+    transform: scale(1.14);
+}
+
+.removeFriend {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ProfileList Page Styling */
+.listHeader {
+    justify-content: space-evenly;
+}
+
+.listAvatar {
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid rgb(60, 60, 60);
+    box-shadow: 0 10px 8px -7px black;
+}
+
+.profileListLinks {
+    text-decoration: none;
+}
+
+.listHeader {
+    display: flex;
+    color: white;
+}
+
+.listText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.listText h2 {
+    font-style: italic;
+}
+
+.userMetrics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userMetrics p {
+    padding: 10px;
+}

@@ -1,0 +1,26 @@
+/* .form.label {
+    text-align: center;
+  } */
+.avatarGroup {
+  text-align: center;
+}
+
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.avatarSelect {
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 10px 0;
+  transition: transform 0.4s ease-in-out;
+}
+
+.avatarSelect:hover {
+  transform: scale(1.1);
+}
