@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh; /* This will ensure that body covers at least the whole viewport height */
-  background: linear-gradient(to bottom right, rgb(3, 110, 3), rgb(171, 209, 4));
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(231, 140, 3));
   font-family: 'Arial', sans-serif;
   color: white;
 }
@@ -47,10 +47,10 @@ body {
 }
 
 .content-area::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom right, rgb(3, 110, 3), rgb(171, 209, 4)); /* Same linear-gradient as the background */
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(231, 140, 3)); /* Same linear-gradient as the background */
   border-radius: 5px;
 }
 
 .content-area::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to top right, rgb(3, 110, 3), rgb(171, 209, 4)); /* Change direction on hover for a cool effect */
+  background: linear-gradient(to top right, rgb(0, 0, 0), rgb(231, 140, 3)); /* Change direction on hover for a cool effect */
 }

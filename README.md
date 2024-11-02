@@ -38,12 +38,9 @@ MIT
 https://opensource.org/licenses/MIT
 
 ## Questions
-For any questions please reach out to us via GitHub
+For any questions please reach out to me via GitHub or email
 
-https://github.com/brandta-1
-<br>
-https://github.com/Cjmoye30
+[jbailey2124@gmail.com](mailto:jbailey2124@gmail.com)
 <br>
 https://github.com/joshbaileydev513
-<br>
-https://github.com/WesBaker0
+
