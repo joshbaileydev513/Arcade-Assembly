@@ -17,7 +17,7 @@
     bottom: 0;
     left: 23%;
     right: 25%;
-    border-bottom: 3px solid forestgreen;
+    border-bottom: 3px solid rgb(231, 140, 3);
     border-radius: 20px;
 }
 
@@ -32,6 +32,7 @@
 
 .app-header-search .form-control .search-input {
     position: relative;
+    text-align: center;
     width: 50%; 
     border: 2px solid grey;
     background-color: transparent;
@@ -79,7 +80,7 @@
 }
 
 .search-list::-webkit-scrollbar-thumb {
-    background-color: forestgreen;
+    background-color: rgb(231, 140, 3);
     border-radius: 5px;
 }
 
@@ -104,5 +105,5 @@
 }
 
 .search-list .search-list-item:hover {
-    background-color: forestgreen;
+    background-color: rgb(231, 140, 3);
 }

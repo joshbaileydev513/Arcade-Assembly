@@ -120,3 +120,7 @@
     margin-bottom: -10px !important;
     font-weight: 500;
 }
+
+.form-control {
+    text-align: center;
+}

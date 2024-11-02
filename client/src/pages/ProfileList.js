@@ -27,7 +27,6 @@ const ProfileList = () => {
         <div>
             <div className="back-button" onClick={goBack}>
                 <FontAwesomeIcon icon={faArrowLeft} />
-                <span>Go Back</span>
             </div>
             <h3>Arcade Assembly Roster: {numUsers}</h3>
             <hr />

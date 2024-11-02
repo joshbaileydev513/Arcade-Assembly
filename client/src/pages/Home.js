@@ -27,12 +27,9 @@ const Home = () => {
 
   return (
     <Container>
-      <Row>
+      <Row class="row justify-content-center">
         <Col md={6} className="align-self-center text-center">
           <h1 className="website-title">Arcade Assembly</h1>
-        </Col>
-        <Col md={6} className="align-self-center text-center">
-          <p className="brief-description">A digital hub where gamers can find their next favorite game, connect with fellow players, and dive into a world of gaming exploration.</p> {/* <-- Added custom class */}
         </Col>
       </Row>
       <Row>
@@ -60,17 +57,16 @@ const Home = () => {
         </Col>
       </Row>
       <Row>
-        <Col md={12} className="text-center">
-          <h3 className="sign-up-text">New to Arcade Assembly? Signup Now!</h3>
-          <button onClick={handleSignupClick}>Signup</button> {/* <-- Added onClick handler */}
+        <Col md={7} className="text-center">
+          <p className="goal-description">At Arcade Assembly, our goal is to create an inclusive gaming community, 
+          making it more enjoyable and accessible for everyone. We aim to provide a platform for discovery, where like-minded players 
+          can find games both popular and obscure so we all can participate in a growing gaming culture.</p> {/* <-- Added custom class */}
         </Col>
       </Row>
       <Row>
-        <Col md={5} className="text-center">
-          <h2 className="our-goal">Our Goal</h2>
-        </Col>
-        <Col md={7} className="text-center">
-          <p className="goal-description">At Arcade Assembly, our goal is to create an inclusive gaming community, making it more enjoyable and accessible for everyone. We aim to provide a platform for discovery, where users can find new games, meet like-minded players, and participate in a vibrant gaming culture.</p> {/* <-- Added custom class */}
+        <Col md={12} className="text-center">
+          <h3 className="sign-up-text">New to Arcade Assembly, Signup Below!</h3>
+          <button onClick={handleSignupClick}>Step In, The Assembly is About to Start</button> {/* <-- Added onClick handler */}
         </Col>
       </Row>
     </Container>
