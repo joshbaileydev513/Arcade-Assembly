@@ -6,7 +6,7 @@
     max-height: 300px;
     width: auto;
     border-radius: 10px;
-    border: 1px solid rgb(60, 60, 60);
+    border: 1px solid rgb(255, 252, 252);
     box-shadow: 0 10px 8px -7px black;
 }
 
@@ -20,8 +20,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(60, 60, 60);
-    margin: 25px 0;
+    border: 1px solid rgb(231, 140, 3);
+    margin: 25px 50px;
     border-radius: 20px;
     overflow: hidden;
     background-image: linear-gradient(black, rgb(54, 54, 54));

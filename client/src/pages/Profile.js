@@ -137,7 +137,6 @@ const Profile = () => {
       <div className='profileAction'>
         <div className="back-button" onClick={goBack}>
           <FontAwesomeIcon icon={faArrowLeft} />
-          <span>Go Back</span>
         </div>
         <div className='addFriendButton'> {friendButton()} </div>
 

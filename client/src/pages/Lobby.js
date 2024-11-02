@@ -98,7 +98,6 @@ export default function Lobby() {
         <>
             <div className="back-button" onClick={goBack}>
                 <FontAwesomeIcon icon={faArrowLeft} />
-                <span>Go Back</span>
             </div>
             <Link to={`/game/${lobby.game.igdb}`}>
                 <img className='lobby-img' src={`${setImage(lobby.game.cover, null, 2)}`} ></img>

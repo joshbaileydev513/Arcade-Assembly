@@ -72,7 +72,6 @@ const Game = () => {
                 <Col md={12}>
                     <div className="back-button" onClick={goBack}>
                         <FontAwesomeIcon icon={faArrowLeft} />
-                        <span>Go Back</span>
                     </div>
                 </Col>
             </Row>

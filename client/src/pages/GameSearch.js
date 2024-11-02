@@ -76,7 +76,7 @@ const GameSearch = () => {
                     <div className="form-control">
                         <input
                             type="text"
-                            placeholder="Find Game"
+                            placeholder="The Assembly Awaits"
                             value={searchTerm}
                             onChange={handleInputChange}
                             className="search-input search-input-shifted"
