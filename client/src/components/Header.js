@@ -31,8 +31,8 @@ const Header = () => {
                             </div>
                         ) : (
                             <div className={showLinks ? "links-container active" : "links-container"}>
-                                <Link to="/login" className="nav-link">Login</Link>
-                                <Link to="/signup" className="nav-link">Signup</Link>
+                                <Link to="/signup" className="nav-link">JOIN</Link>
+                                <Link to="/login" className="nav-link">LOGIN</Link>
                             </div>
                         )}
                     </div>
